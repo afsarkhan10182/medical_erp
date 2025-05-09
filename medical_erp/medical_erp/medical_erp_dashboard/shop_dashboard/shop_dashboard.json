@@ -1,0 +1,26 @@
+{
+ "cards": [],
+ "chart_options": "{\n     \"colors\": [\"#d1d8dd\", \"#ff5858\"]\n}",
+ "charts": [
+  {
+   "chart": "Profit and Loss",
+   "width": "Half"
+  },
+  {
+   "chart": "Last 14 Days Sales",
+   "width": "Half"
+  }
+ ],
+ "creation": "2025-05-04 14:31:40.511933",
+ "dashboard_name": "Shop Dashboard",
+ "docstatus": 0,
+ "doctype": "Dashboard",
+ "idx": 0,
+ "is_default": 0,
+ "is_standard": 1,
+ "modified": "2025-05-07 16:30:00.086773",
+ "modified_by": "Administrator",
+ "module": "Medical Erp",
+ "name": "Shop Dashboard",
+ "owner": "Administrator"
+}

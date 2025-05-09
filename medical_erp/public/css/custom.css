@@ -1,0 +1,63 @@
+/* Ensure the styles apply only to the Shop Dashboard workspace */
+.widget.number-widget-box {
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+    margin-bottom: 15px;
+}
+
+
+.widget.number-widget-box:hover {
+    transform: scale(1.05);
+}
+
+/* Style the widget head (title area) */
+.widget.number-widget-box .widget-head {
+    padding: 10px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.widget-title {
+    font-size: 16px !important;
+    font-weight: bold;
+    color: #f31010 !important; /* White title text for all cards */
+}
+
+/* Style the widget body (value area) */
+.widget.number-widget-box .widget-body {
+    padding: 15px;
+}
+
+.widget.number-widget-box .number {
+    font-size: 24px;
+    font-weight: bold;
+    color: #ffffff !important; /* White value text for all cards */
+}
+
+/* Style the breakdown part (e.g., "(50 + 50)") */
+.widget.number-widget-box .number .number-breakdown {
+    font-size: 16px;
+    font-style: italic;
+    color: #e0e0e0 !important; /* Lighter shade for breakdown */
+}
+
+/* Specific styles for each number card using number_card_name attribute */
+/* Total Sales */
+div[number_card_name="Total Sales"] .widget.number-widget-box {
+    background-color: #4CAF50; /* Green background */
+}
+
+/* Purchase on Credit */
+div[number_card_name="Purchase on Credit"] .widget.number-widget-box {
+    background-color: #F44336; /* Red background */
+}
+
+/* Sales on Credit */
+div[number_card_name="Sales on Credit"] .widget.number-widget-box {
+    background-color: #FF9800; /* Orange background */
+}
+
+/* Monthly Profit */
+div[number_card_name="Monthly Profit"] .widget.number-widget-box {
+    background-color: #2196F3; /* Blue background */
+}

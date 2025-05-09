@@ -10,6 +10,10 @@ You can install this app using the [bench](https://github.com/frappe/bench) CLI:
 cd $PATH_TO_YOUR_BENCH
 bench get-app $URL_OF_THIS_REPO --branch develop
 bench install-app medical_erp
+# From frappe-bench for taking fixtures(json files)
+bench get-app medical_erp /path/to/app_or_git_repo
+bench --site your-site install-app medical_erp
+bench --site your-site migrate
 ```
 
 ### Contributing

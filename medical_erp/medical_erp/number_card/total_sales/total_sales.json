@@ -1,0 +1,23 @@
+{
+ "color": "#4CAF50",
+ "creation": "2025-05-07 11:56:23.085429",
+ "currency": "INR",
+ "docstatus": 0,
+ "doctype": "Number Card",
+ "filters_json": "null",
+ "function": "Count",
+ "idx": 5,
+ "is_public": 0,
+ "is_standard": 1,
+ "label": "Total Sales",
+ "method": "medical_erp.desk_data.desk_data.get_total_sales",
+ "modified": "2025-05-07 18:24:42.218853",
+ "modified_by": "Administrator",
+ "module": "Medical Erp",
+ "name": "Total Sales",
+ "owner": "Administrator",
+ "report_function": "Sum",
+ "show_percentage_stats": 1,
+ "stats_time_interval": "Daily",
+ "type": "Custom"
+}

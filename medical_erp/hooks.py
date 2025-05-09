@@ -11,15 +11,15 @@ app_license = "mit"
 # required_apps = []
 
 # Each item in the list will be shown as an app in the apps page
-# add_to_apps_screen = [
-# 	{
-# 		"name": "medical_erp",
-# 		"logo": "/assets/medical_erp/logo.png",
-# 		"title": "Medical Erp",
-# 		"route": "/medical_erp",
-# 		"has_permission": "medical_erp.api.permission.has_app_permission"
-# 	}
-# ]
+add_to_apps_screen = [
+	{
+		"name": "medical_erp",
+		"logo": "/assets/medical_erp/logo.png",
+		"title": "Medical Erp",
+		"route": "/medical_erp",
+		"has_permission": "medical_erp.api.permission.has_app_permission"
+	}
+]
 
 # Includes in <head>
 # ------------------
@@ -242,3 +242,28 @@ app_license = "mit"
 # 	"Logging DocType Name": 30  # days to retain logs
 # }
 
+home_page = "app"
+
+fixtures = [
+    {
+        "dt": "Workspace",
+        "filters": [["name", "=", "Shop Dashboard"]]
+    },
+    {
+        "dt": "Number Card",
+        "filters": [["Number Card","modified",">","2025-05-06 12:53:15"]]
+    },
+    {
+        "dt": "Dashboard Chart",
+        "filters": [["Dashboard Chart","modified",">","2025-05-07 12:51:47"]]
+    },
+    "Custom HTML Block",
+    "Custom Field",
+    "Property Setter"
+]
+
+
+
+role_home_page = {
+    "Shopkeeper": "shop-dashboard"
+}
