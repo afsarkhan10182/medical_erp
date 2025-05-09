@@ -14,6 +14,7 @@ bench install-app medical_erp
 bench get-app medical_erp /path/to/app_or_git_repo
 bench --site your-site install-app medical_erp
 bench --site your-site migrate
+# Replace your-site with your actual site name eg: erpnext.localhost
 ```
 
 ### Contributing
